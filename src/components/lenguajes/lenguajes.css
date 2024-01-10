@@ -1,0 +1,66 @@
+.lenguajes{
+    width: 100vw;
+    background: linear-gradient(90deg, transparent 0%, var(--primary)15% 85%, transparent);
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    backdrop-filter: blur(3px);
+}
+.skills__front{
+    margin-top: 5rem;
+}
+.velocity_scroll{
+    width: 100vw;
+    max-width: 1000px;
+    padding: 0;
+    position: relative;
+    backdrop-filter: blur(3px);
+    /* right: -530px; */
+}
+.parallax{
+    width: 100%;
+    padding: 0;
+    margin: 3rem 0;
+}
+main h3{
+    color: var(--accentColor);
+    font-size: 2.5rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1.2rem;
+    width: 100vw;
+    backdrop-filter: blur(3px);
+}
+.scroller{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+.scroller span{
+    display: flex;
+    align-items: center;
+}
+.scroller img{
+    height: 40px;
+    margin: 0 .3rem;
+    filter: drop-shadow(0 0 1px var(--pText));
+}
+
+
+@media screen and (min-width: 700px) {
+    .velocity_scroll{
+        right: 0px;
+    }    
+}
+@media screen and (min-width: 700px) {
+    .scroller img{
+        height: 55px;
+        margin: 0 .7rem;
+    }
+    main h3{
+        font-size: 4rem;
+    }
+}

@@ -1,0 +1,136 @@
+.swiper {
+    width: 40%;
+    position: relative;
+    left: 35rem;
+    top: 35rem;
+    margin-left: -150px;
+    margin-top: -150px;
+    rotate: 10deg;
+    animation: cubo 3s infinite linear;
+    transition: all 300ms;
+    border-radius: 2rem;
+    
+}
+@media ( max-width: 340px  ) { 
+    .swiper{
+       left: 30rem; 
+    }
+}
+.swiper::before{
+    content: "";
+    background: rgba(240,240,45,.55);
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    filter: blur(1rem);
+    border-radius: 2rem;
+    
+}
+.swiper-cube-shadow::before{
+    background: gray !important;
+    filter: blur(15px) !important;
+    
+}
+.swiper:hover{
+    transform: scale(1.08);
+}
+@media ( min-width: 540px ) { 
+    .swiper{
+        position: absolute;
+        width: 30%;
+        top: 65%;
+        left: 84%;
+    }
+}
+@media ( min-width: 768px ) { 
+    .swiper{
+        
+        width: 25%;
+        top: 65%;
+        left: 82%;
+    }
+}
+@media ( min-width: 1000px ) { 
+    .swiper{
+        left: 80%;
+        top: 60%;
+    }
+}
+.swiper-slide {
+    background-position: center;
+    
+}
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    background-size: cover;
+    border-radius: 2rem;
+}
+@keyframes apdes {
+    0% {
+      opacity: 0
+    }
+  
+    20% {
+        opacity: 1
+    }
+  
+    60% {
+        opacity: 1
+    }
+  
+    to {
+        opacity: 0
+    }
+  }
+.swipper__title{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2.3rem;
+    transition: all 300ms;
+    position: relative;
+    top: 10rem;
+    animation: apdes 2.5s infinite ease-in-out;
+}  
+@media ( min-width: 540px ) { 
+    .swipper__title{
+        position: static;
+        align-self: start;
+        margin-top: 5rem;
+    }
+}
+.swipper__title:hover{
+    color: rgba(240,240,45,1);
+}
+@media ( min-width: 540px ) { 
+    .swipper__title{
+        margin-left: 2rem;
+        font-size: 2.8rem;
+    }
+}
+@media ( min-width: 768px ) { 
+    .swipper__title{
+        margin-left: 5rem;
+        font-size: 4rem;
+    }
+}
+@media ( min-width: 1000px ) { 
+    .swipper__title{
+        margin-left: 10rem;
+        font-size: 4rem;
+    }
+}
+
+@keyframes cubo {
+    0%{
+        translate: 0;
+    }
+    50%{
+        translate: 10px 10px;
+    }
+    100%{
+        translate: 0;
+    }
+}

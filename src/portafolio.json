@@ -1,0 +1,95 @@
+[
+    {
+        "title": "PDF File Pokedex",
+        "description": "Reto fullstack que consistio en crear endpoints que se conectan a pokeapi.com API, las tareas de los endpoints eran: ordenar alfabeticamente todos los pokemon, cambiar el limite de los pokemons, y crear un reporte PDF de un pokemon generado del lado del servidor.",
+        "participation": "Absolute",
+        "url": "https://reto-tecnico-frontend.onrender.com",
+        "image": "/portafolioImg/pokedex.png"
+    },
+    {
+        "title": "Journal App",
+        "description": "Proyecto fullstack con React en fronted y con Firebase para el lado del backend, Cloudinary para almacenar imagenes, react-router-dom para las rutas y Material UI para los estilos, este es un diario personal que maneja autenticacion, esta app te permite almacenar datos sobre experiencias de dias importantes.",
+        "participation": "Absolute",
+        "url": "https://react-journalapp-second.vercel.app/",
+        "image": "/portafolioImg/journal.png"
+    },
+    {
+        "title": "Online Shop",
+        "description": "Uno de mis mejores proyectos a día de hoy como desarrollador frontend, gracias a este proyecto termine de aprender muchos conceptos como el manejo de autenticacion, manejo de rutas protegidas, diseño y efectos con gran detalle, entre muchas cosas más.",
+        "participation": "Absolute",
+        "url": "https://react-ecommerce-own.netlify.app/#/",
+        "image": "/portafolioImg/ecommerce.png"
+    },
+    {
+        "title": "Heroes Spa",
+        "description": "Proyecto creado con React, Bootstrap, Animate CSS, React-dom y React-Router-Dom. Esta es una Single Page Application (SPA) que nos permite obtener información sobre superheroes desde una base de datos ficticia (archivo JSON).",
+        "participation": "Absolute",
+        "url": "https://memo-react-heroes-spa.netlify.app",
+        "image": "/portafolioImg/heroes.png"
+    },
+    {
+        "title": "NextJs Tic-tac",
+        "description": "Proyecto realizado en NextJs v14 con el nuevo App Router, implementando Typescript, CSS Modules y Zustand para manejo de estados globales, utilizando todos los conocimientos en React, hooks, custom hooks, buenas practicas, css modules, mucha practica en la logica de programacion, etc.",
+        "participation": "Absolute",
+        "url": "https://next-tictactoe-nine.vercel.app/",
+        "image": "/portafolioImg/tic-tac-toe.png"
+    },
+    {
+        "title": "CRUD App",
+        "description": "Proyecto creado con React, Axios, react-hook-form y styled-components. Esta app, es un CRUD sencillo mediante el cual aprendí a manipular información de un backend dedicado a guardar la información de usuarios.",
+        "participation": "Absolute",
+        "url": "https://react-crud-own.netlify.app",
+        "image": "/portafolioImg/crud.png"
+    },
+    {
+        "title": "Crypto Cotizador",
+        "description": "Proyecto creado con React. Esta app, te contacta con una crypto API que nos muestra el tipo de cambio actual de nuestra crypto preferida, este cotizador incluye USD Dollar, peso mexicano y libra esterlina como tipos de cambio.",
+        "participation": "Absolute",
+        "url": "https://react-cryptoquoterapp-ccj.netlify.app",
+        "image": "/portafolioImg/crypto.png"
+    },
+    {
+        "title": "Rick y Morty",
+        "description": "Proyecto creado con React, tambien algunas librerías como Axios, React-Autosuggest y React-Loading. Esta app nos contacta con una API, que nos permite conocer la ubicación de diversos personajes, se implemento una caja de sugerencias en el input.",
+        "participation": "Absolute",
+        "url": "https://react-rickmorty-own.netlify.app",
+        "image": "/portafolioImg/rick.png"
+    },
+    {
+        "title": "Weather App",
+        "description": "Proyecto creado con React, Axios y React-Loading. Esta aplicacion nos contacta con una API de clima, para que la aplicacion funcione, hay que aceptar la confirmación para que pueda saber tu ubicación actual, luego de ello, muestra el clima de tu ciudad o de la que necesites.",
+        "participation": "Absolute",
+        "url": "https://react-weatherapp-own.netlify.app",
+        "image": "/portafolioImg/weatherApp.png"
+    },
+    {
+        "title": "Blackjack",
+        "description": "Project creado con Vanilla JS. Este proyecto es un divertido juego en el cual juegas contra la computadora, quien llegue mas cerca del numero 21 sin pasarse gana el juego.",
+        "participation": "Absolute",
+        "url": "https://memo-vanillajs-blackjack.netlify.app",
+        "image": "/portafolioImg/bjack.png"
+    },
+    {
+        "title": "TODO list",
+        "description": "Proyecto creado con Vanilla JS. Esta app es muy util gracias a que te ayuda a recordar tus actividades pendientes gracias a que se almacena en el local storage de tu navegador web",
+        "participation": "Absolute",
+        "url": "https://memo-vanillajs-todo.netlify.app",
+        "image": "/portafolioImg/todo.png"
+    },
+    {
+        "title": "Carolina Spa",
+        "description": "Proyecto creado con HTML, CSS, SASS, GULP y Swiper . Este proyecto es una pagina estatica en la cual se aprendió de manera mas profunda acerca de la maquetación web, esta pagina maneja geniales efectos creados gracias a la librería Swiper.",
+        "participation": "Absolute",
+        "url": "https://memo-maquetacion-carolinaspa-swiper.netlify.app",
+        "image": "/portafolioImg/spa.png"
+    },
+    {
+        "title": "La Cafeteria",
+        "description": "Proyecto creado with HTML, CSS, SASS y GULP. Este proyecto es una pagina estatica, en la cual se practico mucho la maquetación, sobre todo grid y flexbox.",
+        "participation": "Absolute",
+        "url": "https://memo-maquetacion-cafe-sass-gulp.netlify.app",
+        "image": "/portafolioImg/cafe.png"
+    }
+   
+    
+]
